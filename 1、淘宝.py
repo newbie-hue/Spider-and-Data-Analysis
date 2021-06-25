@@ -27,7 +27,7 @@ def main():
 
     #输入账号和密码
     web.find_element_by_xpath('//*[@id="fm-login-id"]').send_keys('18273192354')
-    web.find_element_by_xpath('//*[@id="fm-login-password"]').send_keys('19971003a')
+    web.find_element_by_xpath('//*[@id="fm-login-password"]').send_keys('xxxxxxx')
     web.find_element_by_xpath('//*[@id="login-form"]/div[4]/button').click()
     #进入首页
     try:
